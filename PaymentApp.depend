@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1640879342 source:d:\ahmed\sprints\reprosit\gitfolder\paymentapplication\paymentapp\card.c
+	<stdio.h>
+	<stdint.h>
+	"Def.h"
+	"Card.h"
+
+1640880400 source:d:\ahmed\sprints\reprosit\gitfolder\paymentapplication\paymentapp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Def.h"
+	"Card.h"
+	"Terminal.h"
+	"Server.h"
+
+1640869514 d:\ahmed\sprints\reprosit\gitfolder\paymentapplication\paymentapp\def.h
+
+1640878598 d:\ahmed\sprints\reprosit\gitfolder\paymentapplication\paymentapp\card.h
+
+1640879429 d:\ahmed\sprints\reprosit\gitfolder\paymentapplication\paymentapp\terminal.h
+
+1640878599 d:\ahmed\sprints\reprosit\gitfolder\paymentapplication\paymentapp\server.h
+
+1640878218 source:d:\ahmed\sprints\reprosit\gitfolder\paymentapplication\paymentapp\server.c
+	<stdint.h>
+	<stdio.h>
+	<string.h>
+	"Def.h"
+	"Server.h"
+
+1640879417 source:d:\ahmed\sprints\reprosit\gitfolder\paymentapplication\paymentapp\terminal.c
+	<stdio.h>
+	<stdint.h>
+	"Def.h"
+	"Terminal.h"
+
