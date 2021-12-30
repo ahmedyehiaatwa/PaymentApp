@@ -4,7 +4,7 @@
 #include "Terminal.h"
 
 
-
+// check on transaction amount if it is more than allowed and then enter transaction date if amount is below required amount
 
 uint8_t TerminalData(ST_terminalData_t* pterminalInfo){
 	printf("Please Enter the transaction Amount: \n"); fflush(stdout);
@@ -19,6 +19,7 @@ uint8_t TerminalData(ST_terminalData_t* pterminalInfo){
 	return 1;
 }
 
+// checks on expiry date if it is after transaction date and if balance in the account allows the transaction amount
 
 uint8_t checkData(ST_cardData_t* pcardInfo, ST_terminalData_t* pterminalInfo){
 

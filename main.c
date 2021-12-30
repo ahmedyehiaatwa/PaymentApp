@@ -15,7 +15,7 @@ int main(void) {
 	uint8_t acceptedOrNot; // variable to check on input given by user
 	ST_terminalData_t terminalInfo;
 	float maxAmount = 5000.00;
-	terminalInfo.maxTransAmount = maxAmount;
+	terminalInfo.maxTransAmount = maxAmount; // max amount is saved in struct's variable
 	while(1){
 	fflush(stdin);
 	readCard(&cardInfo); // Function to input name, account number, and expiration date
